@@ -13,6 +13,7 @@ You can configure the following *MOVE_TYPE*:
 If you use the ftp_push/sftp_push, ensure that you have the proper credentials inputed. A username/password and server are required.
 
 EXCLUDES can also be configured to ignore certain files based on REGEX pattern. These are configured in the fes.conf. The included ones are set to ignore working, partial and checkpoint files from Aspera or Signiant transfers. The REGEX must be python style.
+
 EXCLUDES = "^#work_file#","^#chkpt_file#","\.partial$","\.aspx$"
 
 An optional *DESTINATION* may be set, in which case all files will be placed into a created directory of that name.
