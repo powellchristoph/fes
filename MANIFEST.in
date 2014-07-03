@@ -1,0 +1,6 @@
+include MANIFEST.in
+include FileExporter/*.py
+include setup.py
+include fes.conf
+include fes
+include fes.py

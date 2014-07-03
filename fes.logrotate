@@ -1,0 +1,7 @@
+/var/log/fes.log {
+    missingok
+    notifempty
+    postrotate
+        /sbin/service fes restart > /dev/null 2>/dev/null || true
+    endscript
+}

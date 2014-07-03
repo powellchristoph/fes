@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: fes
+Version: 1.6
+Summary: fes is a simple automated file mover
+Author: Chris Powell 
+Author-email: powellchristoph@gmail.com
+License: GPL v2
+Description: 
+	fes moves files from a staging directory to an export directory based on configured items.
+	Also, supports FTP and SFTP deliveries. 
+        
+Platform: Any
